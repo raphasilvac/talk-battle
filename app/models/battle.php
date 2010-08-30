@@ -1,6 +1,9 @@
 <?php
-class Battle extends AppModel {
-	var $name = 'Battle';
-	var $displayField = 'winner';
+
+
+class Battle extends AppModel
+{
+	public $name = "Battle";
+	public $displayField = 'winner';
 }
-?>
+
