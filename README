@@ -1,34 +1,21 @@
-CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC. Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
+# Talk Battle - A Batalha das Palestras
 
-The Cake Software Foundation - promoting development related to CakePHP
-http://cakefoundation.org/
+Trata-se de uma humilde aplicação web que tem o objetivo de
+avaliar as palestras de uma maneira diferente livre de listas e 
+formulários cansativos ou botões de rádio. Apenas um clique e pronto!
 
-CakePHP - the rapid development PHP framework
-http://www.cakephp.org
+## Instalação Rápida
 
-Cookbook - user documentation for learning about CakePHP
-http://book.cakephp.org
+cd /var/www (ou onde achar mais adequado)
+git clone git@github.com:SatolePHP/talk-battle
+git checkout cakephp
 
-API - quick reference to CakePHP
-http://api.cakephp.org
+Crie uma base de dados...
+Ajuste as configurações do arquivo app/config/database.php
 
-The Bakery - everything CakePHP
-http://bakery.cakephp.org
+cd /var/www/talk-battle/app
+../cake/console/cake schema create
 
-The Show - live and archived podcasts about CakePHP and more
-http://live.cakephp.org
+visite http://localhost/talk-battle (ou semelhante)
 
-CakePHP Google Group - community mailing list and forum
-http://groups.google.com/group/cake-php
-
-#cakephp on irc.freenode.net - chat with CakePHP developers
-irc://irc.freenode.net/cakephp
-
-CakeForge - open development for CakePHP
-http://cakeforge.org
-
-CakePHP gear
-http://www.cafepress.com/cakefoundation
-
-Recommended Reading
-http://astore.amazon.com/cakesoftwaref-20/
+Mais detalhes em breve...
